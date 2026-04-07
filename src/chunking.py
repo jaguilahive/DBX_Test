@@ -1,3 +1,10 @@
+import sys
+import os
+
+_THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+if _THIS_DIR not in sys.path:
+    sys.path.insert(0, _THIS_DIR)
+
 from schemas import DocumentChunk, ParsedDocument, generate_chunk_id, table_to_markdown
 
 

@@ -20,6 +20,13 @@ SRC_DIR = os.path.join(PROJECT_ROOT, "src")
 if SRC_DIR not in sys.path:
     sys.path.insert(0, SRC_DIR)
 
+if not os.path.isfile(os.path.join(SRC_DIR, "schemas.py")):
+    raise RuntimeError(
+        f"src/schemas.py not found at {SRC_DIR}. "
+        f"os.getcwd() is {os.getcwd()}. "
+        f"Make sure notebooks are in the notebooks/ folder."
+    )
+
 SAMPLE_DATA_DIR = os.path.join(PROJECT_ROOT, "sample_data")
 CONFIG_DIR = os.path.join(PROJECT_ROOT, "configs")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")

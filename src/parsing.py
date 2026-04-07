@@ -1,8 +1,13 @@
+import sys
 import os
 import time
 import logging
 from pathlib import Path
 from datetime import datetime, timezone
+
+_THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+if _THIS_DIR not in sys.path:
+    sys.path.insert(0, _THIS_DIR)
 
 from schemas import (
     ParsedDocument, ExtractedTable, ExtractionError,
