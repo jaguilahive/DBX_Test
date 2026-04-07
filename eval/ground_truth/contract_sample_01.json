@@ -1,0 +1,12 @@
+{
+  "file_name": "contract_sample_01.pdf",
+  "doc_type": "contract",
+  "expected_text": "agreement contract terms conditions parties effective date expiration termination liability indemnification",
+  "expected_fields": {
+    "party_name": "Widget Industries LLC",
+    "effective_date": "2026-01-01",
+    "expiration_date": "2026-12-31",
+    "contract_value": "500000.00"
+  },
+  "expected_tables": []
+}

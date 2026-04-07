@@ -1,0 +1,14 @@
+PyMuPDF==1.24.3
+pdfplumber==0.11.0
+pytesseract==0.3.10
+python-docx==1.1.0
+python-magic==0.4.27
+openpyxl>=3.1.2
+xlrd==2.0.1
+tiktoken==0.7.0
+chardet>=5.2.0
+pandas>=2.1.0
+mlflow>=2.10.0
+pyyaml>=6.0
+databricks-vectorsearch>=0.22
+databricks-sdk>=0.20.0

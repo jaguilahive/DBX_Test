@@ -1,0 +1,14 @@
+Extract structured fields from the following document.
+
+Return a JSON object with these fields:
+{field_schema}
+
+Rules:
+- Only extract values explicitly stated in the document.
+- Use null for fields not found.
+- Dates must be in YYYY-MM-DD format.
+- Numbers must be plain numeric values (no commas, no currency symbols).
+- Text fields should be cleaned and trimmed.
+
+Document:
+{document_text}

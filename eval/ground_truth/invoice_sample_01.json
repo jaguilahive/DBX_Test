@@ -1,0 +1,22 @@
+{
+  "file_name": "invoice_sample_01.pdf",
+  "doc_type": "invoice",
+  "expected_text": "invoice number vendor name date due total amount line items payment terms",
+  "expected_fields": {
+    "invoice_number": "INV-2026-001",
+    "vendor_name": "Acme Corp",
+    "invoice_date": "2026-03-15",
+    "due_date": "2026-04-15",
+    "total_amount": "12345.67"
+  },
+  "expected_tables": [
+    {
+      "headers": ["Item", "Description", "Quantity", "Unit Price", "Amount"],
+      "rows": [
+        ["1", "Widget A", "100", "50.00", "5000.00"],
+        ["2", "Widget B", "50", "75.00", "3750.00"],
+        ["3", "Service Fee", "1", "3595.67", "3595.67"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "file_name": "report_sample_01.pdf",
+  "doc_type": "report",
+  "expected_text": "quarterly report findings revenue growth market analysis recommendations executive summary",
+  "expected_fields": {
+    "report_title": "Q1 2026 Quarterly Report",
+    "report_date": "2026-04-01",
+    "author": "Analytics Team"
+  },
+  "expected_tables": []
+}

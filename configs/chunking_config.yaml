@@ -1,0 +1,4 @@
+chunk_size: 512
+chunk_overlap: 64
+min_chunk_size: 50
+tokenizer_encoding: cl100k_base

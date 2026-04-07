@@ -1,0 +1,4 @@
+Summarize the following document in 3-5 sentences. Focus on the key facts, decisions, and action items. Do not include information that is not in the document.
+
+Document text:
+{document_text}
